@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login_parent_container {
+    margin-top: -50px;
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    border-radius: 7px;
+}
+
+.close_icon {
+    position: absolute;
+    top: 76px;
+    right: 520px;
+}
+
+.olx_image {
+    width: 140px;
+    height: 90px;
+}
+
+.olx_img_div {
+    margin-top: 20px;
+}
+
+.h1_text {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.google_fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Login_with_Google {
+    border: 2px solid black;
+    outline: none;
+    width: 300px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 3px;
+}
+
+.Login_with_Google:hover {
+    outline: 2px solid black;
+    cursor: pointer;
+}
+
+.google_text {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.or {
+    text-align: center;
+    margin: 20px;
+}
+
+.create_account {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.a_text {
+    text-decoration: none;
+}
